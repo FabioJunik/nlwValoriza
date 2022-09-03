@@ -53,7 +53,7 @@ export class CreateCompliments1662208315759 implements MigrationInterface {
                     },
                     {
                         name: "FKTagsCompliments",
-                        referencedTableName: "users",
+                        referencedTableName: "tags",
                         referencedColumnNames: ["id"],
                         columnNames: ["tag_id"],
                         onDelete: "SET NULL",
